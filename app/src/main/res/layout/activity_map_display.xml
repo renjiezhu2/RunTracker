@@ -1,0 +1,83 @@
+<FrameLayout
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapDisplayActivity" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:orientation="vertical">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/map_type"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/map_avg_speed"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:text="" />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/map_cur_speed"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:text="Cur speed:" />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/map_climb"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:text="Climb:" />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/map_calorie"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/map_distance"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:text="Distance: " />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/map_save_string"
+            android:id="@+id/map_save_button"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:onClick="onMapSaveClick"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/map_cancel_string"
+            android:id="@+id/map_cancel_button"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:onClick="onMapCancelClick"/>
+    </LinearLayout>
+</FrameLayout>

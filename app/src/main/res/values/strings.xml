@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyRuns</string>
+
+    <!-- Tab Strings -->
+    <string name="ui_tabname_start">start</string>
+    <string name="ui_tabname_history">history</string>
+    <string name="ui_tabname_settings">settings</string>
+
+    <!--Start Strings -->
+    <string name="start_input_type">Input Type:</string>
+    <string name="activity_input_type">Activity Type:</string>
+    <string name="start_button_string">START</string>
+    <string name="sync_button_string">SYNC</string>
+
+    <string-array name="input_array">
+        <item>Manual Entry</item>
+        <item>GPS</item>
+        <item>Automatic</item>
+    </string-array>
+
+    <string-array name="activity_array">
+        <item>Running</item>
+        <item>Walking</item>
+        <item>Standing</item>
+        <item>Cycling</item>
+        <item>Hiking</item>
+        <item>Downhill Skiing</item>
+        <item>Cross-Country Skiing</item>
+        <item>Snowboarding</item>
+        <item>Skating</item>
+        <item>Swimming</item>
+        <item>Mountain Biking</item>
+        <item>Wheelchair</item>
+        <item>Elliptical</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="manual_input_array">
+        <item>Date</item>
+        <item>Time</item>
+        <item>Duration</item>
+        <item>Distance</item>
+        <item>Calories</item>
+        <item>Heart Rate</item>
+        <item>Comment</item>
+    </string-array>
+
+    <string name="title_activity_manual_input">ManualInputActivity</string>
+    <string name="map_save_string">SAVE</string>
+    <string name="map_cancel_string">CANCEL</string>
+    <string name="map_activity">Map</string>
+    <string name="manual_save_button_string">SAVE</string>
+    <string name="manual_cancel_button_string">CANCEL</string>
+
+    <string name="manual_discard_entry">Entry discarded.</string>
+    <string name="manual_duration_message">Duration (Minutes):</string>
+    <string name="manual_distance_message">Distance:</string>
+    <string name="manual_calories_message">Calories:</string>
+    <string name="manual_heart_message">Average Heart Rate (BPM):</string>
+    <string name="manual_comment_hint">How did it go? Enter Notes here.</string>
+    <string name="manual_comment_message">Comment:</string>
+
+
+    <!-- Preference Tab-->
+    <string name="user_profile">User Profile</string>
+    <string name="summery_profile">Name, Email, Class,etc</string>
+    <string name="account_preferences">Account Preference</string>
+    <string name="privacy_setting">Privacy Setting</string>
+    <string name="posting_records">Posting your records anonymously</string>
+    <string name="additional_setting">Additional setting</string>
+    <string name="unit_preference">Unit Preference</string>
+    <string name="select_units">Select the units in which you would like to see distance values</string>
+    <string name="dialog_title">Unit Preference</string>
+    <string name="comment">Comment</string>
+    <string name="comment_summary">Any suggestion to this course?</string>
+    <string name="D_comment">Comment</string>
+    <string name="homepage">Class homepage</string>
+    <string name="homepage_summary">http://www.cs.dartmouth.edu/~campbell</string>
+
+    <string name="ui_profile_toast_save_text">Profile Saved!</string>
+    <string name="profile_photo_file_name">myPhoto</string>
+    <string name="ui_profile_photo_picker_title">select profile image</string>
+    <string name="dialog_fragment_tag_photo_picker">dialog_fragment_photo_picker</string>
+    <string name="image">Profile Image</string>
+    <string name="profile_name_string">Name</string>
+    <string name="profile_photo_string">Profile Photo:</string>
+    <string name="profile_change_button_string">Change</string>
+    <string name="profile_name_hint">Your name here</string>
+    <string name="profile_email_string">Email</string>
+    <string name="profile_email_hint">Your email here</string>
+    <string name="profile_phone_string">Phone</string>
+    <string name="profile_phone_hint">Your phone number here</string>
+    <string name="profile_gender_string">Gender</string>
+    <string name="profile_female_string">Female</string>
+    <string name="profile_male_string">Male</string>
+    <string name="profile_class_string">Class</string>
+    <string name="profile_class_hint">e.g. 2012</string>
+    <string name="profile_major_string">Major</string>
+    <string name="profile_major_hint">Your major here</string>
+    <string name="profile_save_button_string">Save</string>
+    <string name="profile_cancel_button_string">Cancel</string>
+    <string name="cancel_string">Cancelled</string>
+    <string name="input_type_key">InputType</string>
+    <string name="activity_type_key">ActivityType</string>
+    <string name="date_and_time_key">DateAndTime</string>
+    <string name="duration_key">Duration</string>
+    <string name="distance_key">Distance</string>
+    <string name="calories_key">Calories</string>
+    <string name="heart_rate_key">HeartRate</string>
+    <string name="entry_id_key">entry_id</string>
+    <string name="position_key">position_key</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="ui_button_cancel_title">Cancel</string>
+    <string name="map_activity_type">map_activity_type</string>
+    <string name="from">from</string>
+</resources>

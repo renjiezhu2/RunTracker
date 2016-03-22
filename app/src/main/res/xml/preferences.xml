@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/account_preferences">
+        <PreferenceScreen
+             android:title="@string/user_profile"
+             android:summary="@string/summery_profile">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="edu.dartmouth.cs.MyRuns"
+                android:targetClass="edu.dartmouth.cs.MyRuns.Profile"
+                 />
+        </PreferenceScreen>
+        <CheckBoxPreference
+            android:key="privacy_setting"
+            android:title="@string/privacy_setting"
+            android:summary="@string/posting_records"/>
+   </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/additional_setting">
+        <ListPreference
+            android:key="unit_preference"
+            android:title="@string/unit_preference"
+            android:summary="@string/select_units"
+            android:entries="@array/entries_units_preference"
+            android:entryValues="@array/entryvalues_units_preference"
+            android:dialogTitle="@string/dialog_title" />
+        <EditTextPreference
+            android:key="comment"
+            android:title="@string/comment"
+            android:summary="@string/comment_summary"
+            android:dialogTitle="@string/D_comment" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Misc.">
+        <PreferenceScreen
+            android:title="@string/homepage"
+            android:summary="@string/homepage_summary">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="http://www.cs.dartmouth.edu/~campbell" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    </PreferenceScreen>
+
+
